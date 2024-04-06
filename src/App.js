@@ -11,10 +11,10 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path="/products" element={<Products/>} />
-        <Route path="/workers" element={<Workers/>} />
-        <Route path="/products_form" element={<ProductsForm/>} />
-        <Route path="/products_form/:id" element={<ProductsForm/>} />  {/* Благодаря :id Реакт понимает, что число после products_form/ - это id */}
+        <Route path="/test_gh_pages_/products" element={<Products/>} />
+        <Route path="/test_gh_pages_/workers" element={<Workers/>} />
+        <Route path="/test_gh_pages_/products_form" element={<ProductsForm/>} />
+        <Route path="/test_gh_pages_/products_form/:id" element={<ProductsForm/>} />  {/* Благодаря :id Реакт понимает, что число после products_form/ - это id */}
       </Routes>
     </BrowserRouter>
   );
